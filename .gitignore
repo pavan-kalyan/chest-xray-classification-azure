@@ -1,0 +1,10 @@
+pretrained\ models/*
+notshared/*
+data/raw/*
+!data/raw/blacklist.txt
+data/processed/*
+.ipynb_checkpoints/
+output/*
+
+!output/.gitkeep
+!notshared/sample_credentials.json
