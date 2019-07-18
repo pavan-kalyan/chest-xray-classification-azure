@@ -1,13 +1,10 @@
-# Express React Starter
+# Chest X-Ray web app
 
-This is a template for using Express and React in the same project. It is based on Create React App.
-
-Read the article: [Introducing Express React Starter](https://medium.com/burke-knows-words/introducing-express-react-starter-b6d299206a3a)
-
-OR...
+This is the source code for the chest X-Ray classification website.
 
 ## Prerequisites
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
+* [express-react-starter](https://github.com/burkeholland/express-react-starter)
 
 ## Installing
 
@@ -27,7 +24,7 @@ The template can be run in development, or in production. For development, use t
 node server/server.js
 ```
 
-### Start Create React App
+### Start App
 
 In a different terminal tab...
 
@@ -35,9 +32,6 @@ In a different terminal tab...
 npm start
 ```
 
-![Imgur](http://i.imgur.com/f7Nlvx4.png)
-
-The "Welcome to React" is a message that comes from the Express server. 
 
 ### What Is Happening Here?
 
