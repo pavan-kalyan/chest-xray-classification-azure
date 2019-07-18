@@ -1,6 +1,6 @@
 # Chest X-ray classification using Azure services
 
-
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 ## Project Objective
 The purpose of this project is to design, train and deploy a deep learning model on Azure Machine learning service which can diagnose a chest X-ray scan.
 The results of the diagnosis from the model can potentially serve as a preliminary diagnosis in a medical facility, resulting in reduced workload for radiologists and money and time saved for the medical facility.
@@ -12,15 +12,14 @@ This project uses the NIH dataset for chest X-ray scans available [here](https:/
 
 This project uses the NASnet architecture trained on ImageNet as a weights initializer, with a few layers added to adapt to the chest X-ray Dataset.
 The model have been trained using pretrained weights for transfer learning and also as a weights initializer.
-This model achieved 0.8173 AUC at 50 epochs compared to the original stanford paper which achieved 0.841 AUC.
+This model achieved 0.8182 AUC at 50 epochs compared to the original stanford paper which achieved 0.841 AUC.
 
 
 ## Results
 
-|Model | AUC | Epochs | Transfer Learning |
-|------|:---:|:------:|-----------------:|
-|NASNet|0.8173|50|No|
-|NASNet|0.7064|30|Yes|
+|Model | AUC | Epochs |
+|------|:---:|:------:|
+|NASNet|0.8182|50|
 
 #### Per Disease AUC Score
 
