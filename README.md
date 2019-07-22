@@ -63,3 +63,8 @@ This x-ray image pathology classification system is neither intended for real cl
 
 ## Acknowledgements
 With deep gratitude to researchers and developers at PyTorch, NIH, Stanford, Project Jupyter and [AzureChestXray repo](https://github.com/Azure/AzureChestXRay). With special thanks to my mentors at Microsoft for their guidance.
+
+## Contributing
+This project welcomes contributions and suggestions. Please put up a Github issue before working on a bug or a feature, to avoid redundant work.
+
+This project has adopted the Contributor Covenant Code of Conduct. For more information see [Code of Conduct FAQ](https://www.contributor-covenant.org/faq)
